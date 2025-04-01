@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Day Management System - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Conference Management System</h2>
+
+        <form action="login.php" method="POST" id="loginForm">
+            <label for="userType">Select User Type:</label>
+            <select id="userType" name="userType" required>
+                <option value="" disabled selected>Select your role</option>
+                <option value="admin">Admin</option>
+                <option value="participant">Participant</option>
+            </select>
+
+            <div id="usernamePasswordFields" style="display: none;">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </div>
+        </form>
+
+        <p class="error-message" id="error-message"></p>
+
+        <p class="register-link">
+            Don't have an account? <a href="registrationform.html">Register here</a>
+        </p>
+    </div>
+
+    <script src="loginscript.js"></script>
+</body>
+</html>

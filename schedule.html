@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Schedule</title>
+    <link rel="stylesheet" href="schedule.css">
+    <script>
+        // Function to display a registration message
+        function showRegistrationMessage() {
+            alert("Please Register on the website before you register for the session.");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Conference Tracks</h1>
+    </header>
+
+    <!-- Track Section -->
+    <section class="tracks">
+        <div class="track">
+            <h2>Track 1: Artificial Intelligence</h2>
+            <p>Explore AI applications in healthcare, automation, and more.</p>
+        </div>
+        <div class="track">
+            <h2>Track 2: Sustainable Engineering</h2>
+            <p>Learn about renewable energy and green technologies.</p>
+        </div>
+        <div class="track">
+            <h2>Track 3: Cloud Computing</h2>
+            <p>Discover cloud infrastructure and development innovations.</p>
+        </div>
+        <div class="track">
+            <h2>Track 4: Cyber Security</h2>
+            <p>Enhance your knowledge of security systems and practices.</p>
+        </div>
+    </section>
+
+    <!-- Day 1 Schedule Section -->
+    <section class="schedule">
+        <h2>Day 1 Schedule</h2>
+
+        <div class="session">
+            <h3>Artificial Intelligence</h3>
+            <p><strong>Speaker:</strong> Dr. S. Senarath</p>
+            <p><strong>Time:</strong> 9:30 AM - 11:30 AM</p>
+            <p><strong>Venue:</strong> Room A</p>
+            <p><strong>Capacity:</strong> 15/50 available</p>
+            <button onclick="showRegistrationMessage()">Register Now</button>
+        </div>
+
+        <div class="session">
+            <h3>Sustainable Engineering</h3>
+            <p><strong>Speaker:</strong> Dr. Abesekara</p>
+            <p><strong>Time:</strong> 10:00 AM - 12:00 PM</p>
+            <p><strong>Venue:</strong> Room B</p>
+            <p><strong>Capacity:</strong> 20/50 available</p>
+            <button onclick="showRegistrationMessage()">Register Now</button>
+        </div>
+
+        <div class="session">
+            <h3>Cloud Computing</h3>
+            <p><strong>Speaker:</strong> Prof. L. Kumar</p>
+            <p><strong>Time:</strong> 1:00 PM - 3:00 PM</p>
+            <p><strong>Venue:</strong> Room C</p>
+            <p><strong>Capacity:</strong> 18/50 available</p>
+            <button onclick="showRegistrationMessage()">Register Now</button>
+        </div>
+
+        <div class="session">
+            <h3>Cyber Security</h3>
+            <p><strong>Speaker:</strong> Dr. N. Perera</p>
+            <p><strong>Time:</strong> 3:30 PM - 5:30 PM</p>
+            <p><strong>Venue:</strong> Room D</p>
+            <p><strong>Capacity:</strong> 10/50 available</p>
+            <button onclick="showRegistrationMessage()">Register Now</button>
+        </div>
+    </section>
+</body>
+</html>

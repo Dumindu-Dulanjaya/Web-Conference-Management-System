@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #7cd7a6;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+.nav a:hover {
+    background-color: #00bcd4;
+}
+
+
+.container {
+    padding: 2rem;
+}
+
+
+section {
+    margin-top: 1.5rem;
+}
+
+h2 {
+    color: black;
+}
+
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn {
+    background-color: #7cd7a6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #00bcd4;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+ul li a {
+    color: #7cd7a6;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .container {
+        padding: 1rem; 
+    }
+
+    .card {
+        padding: 1rem; 
+    }
+
+    .btn {
+        width: 100%; 
+        padding: 0.75rem 1rem; 
+    }
+
+    ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .nav {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
+    .container {
+        padding: 1.5rem; 
+    }
+
+    .card {
+        padding: 1rem; 
+    }
+
+    .btn {
+        padding: 0.75rem 1.25rem; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .nav {
+        justify-content: space-around; 
+    }
+
+    .container {
+        padding: 2rem; 
+    }
+
+    .card {
+        padding: 1rem; 
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+    }
+}

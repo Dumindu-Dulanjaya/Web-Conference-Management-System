@@ -1,0 +1,294 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #7cd7a6;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+    color: #00bcd4;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    position: relative;
+}
+
+.search-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #7cd7a6;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #7cd7a6;
+    border: 2px solid #7cd7a6;
+    font-size: 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00bcd4;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.content .par {
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    background: #7cd7a6;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00bcd4;
+}
+
+#about {
+    background: #e8f5e9;
+    padding: 5%;
+    color: black;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#about ul {
+    list-style: square inside;
+    padding: 0;
+}
+
+
+#contact {
+    background: #020202;
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links {
+        display: none; 
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .navbar-links li a {
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .search-container {
+        top: 15%;
+    }
+
+    .srch {
+        width: 80%;
+    }
+
+    .btn {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    #about h2 {
+        font-size: 2rem;
+    }
+
+    #contact h2 {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-links {
+        display: flex;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .search-container {
+        top: 20%;
+    }
+
+    .srch {
+        width: 250px;
+    }
+
+    .btn {
+        width: 120px;
+    }
+
+    #about h2 {
+        font-size: 2.2rem;
+    }
+
+    #contact h2 {
+        font-size: 2.2rem;
+    }
+
+    button {
+        width: 140px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-links {
+        display: flex;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .search-container {
+        top: 20%;
+    }
+
+    .srch {
+        width: 300px;
+    }
+
+    .btn {
+        width: 100px;
+    }
+
+    #about h2 {
+        font-size: 2.5rem;
+    }
+
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        width: 160px;
+    }
+}
