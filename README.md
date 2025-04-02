@@ -20,5 +20,10 @@ Displays conference details, including date, location, and guest speakers.
 Lists conference topics and tracks with detailed information. Includes a filter to find specific tracks.
 ![Image](https://github.com/user-attachments/assets/b69f6eb2-02db-4763-b56c-58f1c2478c49)
 
+##Login Page:
+
+Allows participants to register by submitting their details. Data is stored in the participants table in the database.
+![Image](https://github.com/user-attachments/assets/a652930a-f072-4eb1-8198-0d97fc4fe8f2)
+
 
 
