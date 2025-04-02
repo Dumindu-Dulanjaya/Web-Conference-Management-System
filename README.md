@@ -28,6 +28,20 @@ Allows participants to register by submitting their details. Data is stored in t
 #Login Page:
 
 Authenticates users based on email and password. Admin users can access the admin dashboard.
+![Image](https://github.com/user-attachments/assets/b7c28a15-8062-4c98-aeef-a7d591467a8d)
+
+
+##Admin Dashboard:
+
+Manage participants, tracks, sessions, and attendance.
+All changes are reflected in the database in real-time.
+
+
+ Clone the repository:
+        Use the following command to clone the repository:
+        bash git clone https://github.com/dumeeshatharukee/Conference-Management-System.git
+    Navigate to the project folder:
+        Change to the project directory: bash cd Conference-Management-System
 
 
 
