@@ -17,5 +17,8 @@ Displays conference details, including date, location, and guest speakers.
 
 ##Schedule Page:
 
-Lists conference topics and tracks with detailed information. Includes a filter to find specific tracks
+Lists conference topics and tracks with detailed information. Includes a filter to find specific tracks.
+![Image](https://github.com/user-attachments/assets/b69f6eb2-02db-4763-b56c-58f1c2478c49)
+
+
 
