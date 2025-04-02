@@ -20,6 +20,8 @@ Displays conference details, including date, location, and guest speakers.
 Lists conference topics and tracks with detailed information. Includes a filter to find specific tracks.
 ![Image](https://github.com/user-attachments/assets/b69f6eb2-02db-4763-b56c-58f1c2478c49)
 
+![Image](https://github.com/user-attachments/assets/cdf3fc1a-1555-4887-b78a-6465b7a039ee)
+
 ##RegistrationPage:
 
 Allows participants to register by submitting their details. Data is stored in the participants table in the database.
@@ -37,8 +39,9 @@ Authenticates users based on email and password. Admin users can access the admi
 
  Clone the repository:
         Use the following command to clone the repository:
-        bash git clone https://github.com/dumeeshatharukee/Conference-Management-System.git
-    Navigate to the project folder:
+        bash git clone  https://github.com/Dumindu-Dulanjaya/Web-Conference-Management-System.git
+        
+  Navigate to the project folder:
         Change to the project directory: bash cd Conference-Management-System
 
 
