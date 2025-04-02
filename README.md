@@ -31,10 +31,8 @@ Authenticates users based on email and password. Admin users can access the admi
 ![Image](https://github.com/user-attachments/assets/b7c28a15-8062-4c98-aeef-a7d591467a8d)
 
 
-##Admin Dashboard:
-
-Manage participants, tracks, sessions, and attendance.
-All changes are reflected in the database in real-time.
+##About page:
+![Image](https://github.com/user-attachments/assets/3a56793c-92ab-4f02-8556-0076f14bb146)
 
 
  Clone the repository:
