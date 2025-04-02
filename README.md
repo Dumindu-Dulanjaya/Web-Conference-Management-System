@@ -13,3 +13,9 @@ How to Set Up and Run the Application
 ##Home Page:
 
 Displays conference details, including date, location, and guest speakers.
+![Image](https://github.com/user-attachments/assets/28412880-bd81-49a6-a3a0-d979cb957999)
+
+##Schedule Page:
+
+Lists conference topics and tracks with detailed information. Includes a filter to find specific tracks
+
